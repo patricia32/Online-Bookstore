@@ -1,0 +1,46 @@
+.NavbarName {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: purple;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+.Wrapper {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Left{
+    flex: 33.33%;
+    display: flex;
+    align-items: center;
+}
+.SearchC{
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+.Input{
+    border: none;
+}
+.Center{
+    flex: 33.33%;
+    text-align: center;
+}
+.Logo{
+    font-weight: bold;
+}
+.Right{
+    flex: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.MenuItem{
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 25px;
+}

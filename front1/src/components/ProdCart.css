@@ -1,0 +1,38 @@
+.leftProd{
+    height: 280px;
+    width: 50%;
+    padding: 0 8%;
+    background-color: #F1F1F1;
+}
+.rightProd{
+    height: 280px;
+    margin-left: 0;
+    width: 50%;
+    padding: 0 8%;
+    display: flow;
+    align-items: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Papyrus" sans-serif;
+    overflow: hidden;
+}
+.HomeCartProdPage{
+    width: 100%;
+
+}
+.wrapperCartProdPage {
+    display: flex;
+}
+.ContainerCartProducts{
+    padding: 20px;
+    display: flow;
+    justify-content: space-between;
+    align-items: center;
+}
+.imageCartProd{
+    width: 159px;
+
+}

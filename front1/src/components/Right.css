@@ -1,0 +1,40 @@
+.rightProd{
+    height: 100vh;
+    margin-top: 90px;
+    width: 50%;
+    padding: 0 8%;
+}
+
+.rightTopImg {
+    width: 400px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin-right: 150px;
+    box-shadow: 1px 15px 15px 1px rgba(30,30,30,.8);
+
+}
+
+
+.rightBottom {
+    display: flex;
+    align-items: center;
+   /* justify-self: space-between;*/
+
+}
+
+.rightBottomBox {
+    width: 100px;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.rightBottomImg {
+    width: 140px;
+
+}

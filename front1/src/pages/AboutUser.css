@@ -1,0 +1,23 @@
+.Container1{
+    padding: 10px 20px;
+    display: flow;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.Title{
+    margin-left: 10px;
+}
+.Wrapper1{
+    width: 100%;
+    padding: 30px;
+    background-color: white;
+}
+.Button1{
+    width: 40%;
+    border: none;
+    padding: 15px 20px;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}

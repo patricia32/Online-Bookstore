@@ -1,0 +1,58 @@
+.NavbarName {
+    height: 50px;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+.Wrapper {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+.SearchC{
+    border: 0.5px solid lightgray;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+.Input{
+    border: none;
+    background-color: purple;
+}
+.Center{
+    flex: 1;
+    text-align: center;
+}
+.Logo{
+    font-weight: bold;
+    cursor: pointer;
+}
+.Right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.MenuItem{
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 1px;
+}
+.Button2{
+    border: none;
+    margin-right: 10px;
+    padding: 10px 15px;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}

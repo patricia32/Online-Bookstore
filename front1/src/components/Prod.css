@@ -1,0 +1,64 @@
+.InfoProd {
+    opacity: 0;
+    width: 159px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.ContainerProd  {
+    flex: 1;
+    margin: 5px;
+    min-width: 159px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #efede9;
+    position: center;
+
+}
+
+.ContainerProd :hover .InfoProd  {
+    opacity: 1;
+}
+
+.CircleProd  {
+    width: 159px;
+    height: 200px;
+  background-color: white;
+    position: absolute;
+}
+
+.ImageProd  {
+    width: 159px;
+    height: 200px;
+    z-index: 2;
+}
+
+.IconProd  {
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    transition: all 0.5s ease;
+}
+
+.IconProd :hover {
+    background-color: #e9f5f5;
+    transform: scale(1.1);
+}
+.TitleProd{
+    cursor: pointer;
+}

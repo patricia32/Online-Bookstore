@@ -1,0 +1,47 @@
+.Container{
+    width: 100vw;
+    height: 100vh;
+    background: #bfbdb8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Wrapper{
+    width: 20%;
+    padding: 30px;
+    background: white;
+}
+
+.Title{
+    font-size: 24px;
+    font-weight: 300;
+}
+.Form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Input{
+    flex: 1;
+    min-width: 45%;
+    margin: 20px 10px 0 0;
+    padding: 10px;
+}
+.Agreement{
+    font-size: 12px;
+    margin: 20px 0;
+}
+.Button{
+    width: 45%;
+    border: none;
+    padding: 15px 20px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}
+.Link{
+    margin: 5px 0;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "spring.datesource.url",
+      "type": "java.lang.String",
+      "description": "Description for spring.datesource.url."
+    }
+  ] }

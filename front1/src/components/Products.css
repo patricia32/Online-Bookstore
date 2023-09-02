@@ -1,0 +1,17 @@
+.ContainerProducts{
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: #efede9;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow: 1px 15px 15px 1px rgba(30,30,30,.8);
+    overflow: auto;
+    overflow-scrolling: touch;
+}
+
+.select{
+    cursor: pointer;
+}
